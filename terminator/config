@@ -1,0 +1,22 @@
+[global_config]
+  focus = system
+[keybindings]
+  full_screen = <Ctrl><Shift>F11
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    background_darkness = 0.83
+    background_image = None
+    background_type = transparent
+    font = Monospace 11
+    foreground_color = "#ffffff"
+    show_titlebar = False
+    use_system_font = False
